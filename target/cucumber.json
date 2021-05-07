@@ -1,0 +1,71 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-07T12:12:58.069Z",
+        "line": 5,
+        "name": "User want to search product",
+        "description": "",
+        "id": "search-register;user-want-to-search-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11768565501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User choose Area from pop up",
+            "match": {
+              "location": "HomePage.userChooseAreaFromPopUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15654391594,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search product \"kecap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kecap\"",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePage.userSearchProduct(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@SearchFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Search Register",
+    "description": "",
+    "id": "search-register",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/search.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
